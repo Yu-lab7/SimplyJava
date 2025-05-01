@@ -41,7 +41,7 @@ public class Account implements Serializable {
         amount = amount + depositValue;
     }
 
-    int draw(int value){
+    public int draw(int value){
         int withdrawnAmount = 0;
         if (amount >= value) {
             amount -= value;

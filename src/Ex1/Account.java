@@ -44,4 +44,9 @@ public class Account {
     public int getBalance(){ // 残高照会メソッド
         return amount;
     }
+
+    public String getAccountHolder(){ // 口座所有者の取得メソッド
+        return accountHolder;
+    }
+
 }
